@@ -1,0 +1,40 @@
+
+
+POST http://localhost:5000/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "mrzargar1995@gmail.com",
+    "password": "11111111"
+}
+
+###
+
+POST http://localhost:5000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "mrzargar1995@gmail.com",
+    "password": "11111111",
+    "passwordConfirm": "11111111",
+    "name":"alizargar1",
+    "phoneNumber":"0918247150000"
+    
+}
+
+
+###
+
+GET http://localhost:5000/api/products HTTP/1.1
+content-type: application/json
+
+###
+
+
+###
+GET http://localhost:5000/api/product/seed HTTP/1.1
+content-type: application/json
+
+
+
+###
