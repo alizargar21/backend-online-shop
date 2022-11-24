@@ -3,7 +3,7 @@
   "name": "Backend-onlineShop",
   "version": "1.0.0",
   "description": "Backend-onlineShop",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "heroku-postbuild" : "cd client && npm install && npm run build" ,
     "start": "node server.js"
