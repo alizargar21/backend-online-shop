@@ -6,8 +6,8 @@
   "main": "app.js",
   "scripts": {
  
-    "start": "node server.js",
-    "seed": "node seed.js"
+    "start": "node server.js"
+    
   },
   "author": "Ali Zargar",
   "license": "ISC",
