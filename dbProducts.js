@@ -694,7 +694,7 @@ export const users = [
   {
     name: "Test",
     email: "test@info.com",
-    password: bcrypt.hashSync("123456", 8),
+    password: bcrypt.hashSync("12345678", 8),
     isAdmin: false,
     phoneNumber: "09193000000",
   },

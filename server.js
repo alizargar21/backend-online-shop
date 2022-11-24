@@ -30,7 +30,10 @@ app.use(cors());
 app.use("/api/products" , productsRouter)
 app.use("/api/user", userRouter);
 app.use("/api/order", orderRouter);
-
+app.use(express.static(path.join(__dirname , "/client")));
+app.get("*" , (req , res ) => {
+  res.sendFile(path.join(__dirname , "/client/build" , "index.html"))
+})
 // // PORT
 const port = process.env.PORT || 5000;
 
